@@ -1,5 +1,7 @@
 package br.com.lucasneves.Desafio3;
 
+import br.com.lucasneves.Desafio3.Apoio.Dados;
+import br.com.lucasneves.Desafio3.Apoio.Leitor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

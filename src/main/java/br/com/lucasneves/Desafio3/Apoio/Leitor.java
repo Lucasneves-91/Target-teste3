@@ -1,4 +1,4 @@
-package br.com.lucasneves.Desafio3;
+package br.com.lucasneves.Desafio3.Apoio;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

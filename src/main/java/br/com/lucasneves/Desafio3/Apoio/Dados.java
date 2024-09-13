@@ -1,4 +1,4 @@
-package br.com.lucasneves.Desafio3;
+package br.com.lucasneves.Desafio3.Apoio;
 
 public class Dados {
     private int dia;
