@@ -1,7 +1,7 @@
 package br.com.lucasneves.Desafio3;
 
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.springframework.asm.TypeReference;
 import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
@@ -14,8 +14,8 @@ public class Leitor {
     private final String nomeArquivo;
     private List<Dados> dadosList;
 
-    public Leitor(String nomeAruivo) {
-        this.nomeArquivo = nomeAruivo;
+    public Leitor(String nomeArquivo) {
+        this.nomeArquivo = nomeArquivo;
 
         try {
             ObjectMapper objectMapper = new ObjectMapper();
